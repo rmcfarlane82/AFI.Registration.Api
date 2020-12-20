@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AFI.Registration.Data\AFI.Registration.Data.csproj" />
+    <ProjectReference Include="..\AFI.Registration.Services\AFI.Registration.Services.csproj" />
+  </ItemGroup>
+
 
 </Project>
