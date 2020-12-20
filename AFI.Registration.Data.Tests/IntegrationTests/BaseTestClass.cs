@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace AFI.Registration.Data.Tests.IntegrationTests
 {
@@ -10,14 +9,9 @@ namespace AFI.Registration.Data.Tests.IntegrationTests
 
         public BaseTestClass()
         {
-            var serviceProvider = new ServiceCollection()
-                .AddEntityFrameworkSqlServer()
-                .BuildServiceProvider();
-
             _contextOptionsBuilder = new DbContextOptionsBuilder<TContext>();
 
-            _contextOptionsBuilder.UseSqlServer($"Server=(localdb)\\mssqllocaldb;Database=afi_customers_db_integration_test;Trusted_Connection=True;MultipleActiveResultSets=true")
-                .UseInternalServiceProvider(serviceProvider);
+            _contextOptionsBuilder.UseInMemoryDatabase("AFI.Registration.Data.Tests.Database");
 
             using var context = GetContext();
             context.Database.EnsureDeleted();
