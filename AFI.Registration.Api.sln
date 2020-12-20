@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Registration.Services.T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8A257D2E-CAA1-4227-AC49-634166962056}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Registration.Api", "AFI.Registration.Api\AFI.Registration.Api.csproj", "{C26154AA-6D31-45DC-A234-F52991A9B6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Registration.Api.Tests", "AFI.Registration.Api.Tests\AFI.Registration.Api.Tests.csproj", "{18A9C7A9-435D-4A95-975A-288A6E9569C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{D0E2A562-96DD-4C44-BD03-910708B6423F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E2A562-96DD-4C44-BD03-910708B6423F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E2A562-96DD-4C44-BD03-910708B6423F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26154AA-6D31-45DC-A234-F52991A9B6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26154AA-6D31-45DC-A234-F52991A9B6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26154AA-6D31-45DC-A234-F52991A9B6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26154AA-6D31-45DC-A234-F52991A9B6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A9C7A9-435D-4A95-975A-288A6E9569C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A9C7A9-435D-4A95-975A-288A6E9569C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A9C7A9-435D-4A95-975A-288A6E9569C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A9C7A9-435D-4A95-975A-288A6E9569C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
