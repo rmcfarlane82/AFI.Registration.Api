@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Registration.Data", "AF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Test.Helpers", "AFI.Test.Helpers\AFI.Test.Helpers.csproj", "{55CACC53-09B0-4778-A343-FCECFAD7AD41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Registration.Data.Customizations", "AFI.Registration.Data.Customizations\AFI.Registration.Data.Customizations.csproj", "{C33C5022-C02D-4FB7-BD42-FB89E3E8A87C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{55CACC53-09B0-4778-A343-FCECFAD7AD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55CACC53-09B0-4778-A343-FCECFAD7AD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55CACC53-09B0-4778-A343-FCECFAD7AD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33C5022-C02D-4FB7-BD42-FB89E3E8A87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33C5022-C02D-4FB7-BD42-FB89E3E8A87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33C5022-C02D-4FB7-BD42-FB89E3E8A87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33C5022-C02D-4FB7-BD42-FB89E3E8A87C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
