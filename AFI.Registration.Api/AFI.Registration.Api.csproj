@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AFI.Registration.Data\AFI.Registration.Data.csproj" />
     <ProjectReference Include="..\AFI.Registration.Services\AFI.Registration.Services.csproj" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
 
