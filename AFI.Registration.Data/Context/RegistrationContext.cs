@@ -6,7 +6,7 @@ namespace AFI.Registration.Data.Context
 {
     public class RegistrationContext : DbContext
     {
-        public RegistrationContext(DbContextOptions options): base(options)
+        public RegistrationContext(DbContextOptions<RegistrationContext> options): base(options)
         {
             
         }
