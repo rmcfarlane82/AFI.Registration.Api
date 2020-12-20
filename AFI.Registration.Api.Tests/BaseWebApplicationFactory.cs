@@ -21,7 +21,7 @@ namespace AFI.Registration.Api.Tests
 
                 services.AddDbContext<RegistrationContext>(options =>
                 {
-                    options.UseInMemoryDatabase("InMemoryDbForTesting");
+                    options.UseInMemoryDatabase("AFI.Registration.Api.Tests");
                 });
 
                 var serviceProvider = services.BuildServiceProvider();

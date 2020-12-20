@@ -33,6 +33,7 @@ namespace AFI.Registration.Api.Controllers
             try
             {
                 var newCustomer = await _customerRegistrationService.Register(registrationRequest);
+
                 return Created("api/customer", new CustomerRegistrationResult(newCustomer.Id));
             }
             catch (ValidationException e)
@@ -42,6 +43,7 @@ namespace AFI.Registration.Api.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
+
                 return Problem("Sorry an error occurred");
             }
         }

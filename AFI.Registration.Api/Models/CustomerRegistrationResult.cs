@@ -7,6 +7,6 @@
             CustomerId = customerId;
         }
 
-        public int CustomerId { get; private set; }
+        public int CustomerId { get; }
     }
 }
